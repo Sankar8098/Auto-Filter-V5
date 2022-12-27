@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '12124605'))
-API_HASH = environ.get('API_HASH', '5cf3577d85fd02286535ec2296934287')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5867279415:AAHxI9qM4iu-v4sOl53KPYMCThNX9KQVXrQ")
+API_ID = int(environ.get('API_ID', '18971757'))
+API_HASH = environ.get('API_HASH', '9395187b26708c27d80fb81f3d75a3bb)
+BOT_TOKEN = environ.get('BOT_TOKEN', "5966908879:AAHfplUjiii0dzTxmtA9ZhyMfLV91XEJTCQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,20 +42,20 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cynitesupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cynitebackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cynitesupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SK_MovieOffl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SK_MovieOffl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/SK_MovieOffl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/cynitemovies/3')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_download_dulink_sk')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001819673897))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001819673897))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001744750167)
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001744750167)
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
