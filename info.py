@@ -54,8 +54,8 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_download_dulink_sk')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001744750167)
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001744750167)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001744750167))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001744750167))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
